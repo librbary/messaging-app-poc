@@ -28,8 +28,8 @@ const Auth = () => {
 
     const { username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "http://localhost:4000/auth";
-    // const URL = 'https://medical-pager.herokuapp.com/auth';
+    // const URL = "http://localhost:4000/auth";
+     const URL = 'https://librbary-communities.onrender.com/auth';
 
     const {
       data: { token, userId, hashedPassword, fullName },
