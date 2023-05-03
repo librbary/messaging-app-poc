@@ -38,7 +38,7 @@ const ChannelContainer = ({
   );
 
   return (
-    <div className=" channel__container">
+    <div className="channel__container">
       <Channel
         EmptyStateIndicator={EmptyState}
         Message={(messageProps, i) => (
