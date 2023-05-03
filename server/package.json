@@ -20,5 +20,8 @@
     "nodemon": "^2.0.22",
     "stream-chat": "^8.6.0",
     "twilio": "^4.10.0"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
